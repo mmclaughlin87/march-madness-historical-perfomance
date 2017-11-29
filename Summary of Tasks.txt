@@ -31,4 +31,4 @@ Q: How have specific teams performed historically?
 	- avg score margin
 	- wins v. expected wins (according to seed)
 - How has team X performed?
-	- return the above items for the specified team
+	- return the above items for the specified teamf
