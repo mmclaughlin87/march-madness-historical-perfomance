@@ -1,0 +1,34 @@
+1. Summary of Seeds
+Q: How do teams typically perform?
+- Percent of a given seed that advances, round by round (chart 1)
+- Average point margin by seed (chart 2)
+- Average win count by seed (chart 3)
+
+---------------------------------------------------------------------------
+
+2. Summary of Matchups
+Q: Which games are likely to be interesting?
+- What rounds do updates happen in?
+- What is the average difference in seeds when upsets occur?
+- Perform a big filter of the data looking at only upsets
+- Correlation between pt spread and difference in seeds (chart 1)
+	- Scatter plot of all games --> color indicating upset or not
+
+- Liklihood of...upset, close game, OT
+	- Percentage of upsets by round (chart?)
+	- Maybe limit to 1st round where the matchups are set 1/16 ---> 8/9
+		- which matchups are "interesting"
+		- liklihood of upset for each matchup
+
+---------------------------------------------------------------------------
+
+3. Specific Teams
+Q: How have specific teams performed historically?
+- Who has done the best?
+	- # appearances
+	- total wins
+	- win %
+	- avg score margin
+	- wins v. expected wins (according to seed)
+- How has team X performed?
+	- return the above items for the specified teamf
