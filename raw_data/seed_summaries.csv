@@ -1,0 +1,110 @@
+Seed,Average Point Spread,Average Wins,Wins by Round
+1,11.392193308550185,3.3515625,"round
+Elite Eight               52
+National Championship     19
+National Semifinals       30
+Round of 32              111
+Round of 64              128
+Sweet Sixteen             89
+Name: win, dtype: int64"
+2,7.109302325581395,2.3984375,"round
+Elite Eight               28
+National Championship      5
+National Semifinals       13
+Round of 32               81
+Round of 64              120
+Sweet Sixteen             60
+Name: win, dtype: int64"
+3,4.96045197740113,1.796875,"round
+Elite Eight               14
+National Championship      4
+National Semifinals        9
+Round of 32               65
+Round of 64              107
+Sweet Sixteen             31
+Name: win, dtype: int64"
+4,3.313846153846154,1.546875,"round
+Elite Eight               13
+National Championship      1
+National Semifinals        3
+Round of 32               59
+Round of 64              102
+Sweet Sixteen             20
+Name: win, dtype: int64"
+5,0.8925925925925926,1.109375,"round
+Elite Eight               6
+National Championship     0
+National Semifinals       3
+Round of 32              43
+Round of 64              82
+Sweet Sixteen             8
+Name: win, dtype: int64"
+6,0.33579335793357934,1.125,"round
+Elite Eight               3
+National Championship     1
+National Semifinals       2
+Round of 32              42
+Round of 64              82
+Sweet Sixteen            14
+Name: win, dtype: int64"
+7,-0.5850622406639004,0.890625,"round
+Elite Eight               2
+National Championship     1
+National Semifinals       1
+Round of 32              23
+Round of 64              78
+Sweet Sixteen             9
+Name: win, dtype: int64"
+8,-3.2818181818181817,0.7265625,"round
+Elite Eight               5
+National Championship     1
+National Semifinals       3
+Round of 32              12
+Round of 64              64
+Sweet Sixteen             8
+Name: win, dtype: int64"
+9,-4.22,0.5625,"round
+Elite Eight             1
+National Semifinals     0
+Round of 32             5
+Round of 64            64
+Sweet Sixteen           2
+Name: win, dtype: int64"
+10,-3.0285714285714285,0.640625,"round
+Elite Eight             1
+National Semifinals     0
+Round of 32            23
+Round of 64            50
+Sweet Sixteen           8
+Name: win, dtype: int64"
+11,-3.5247524752475248,0.578125,"round
+Elite Eight             3
+National Semifinals     0
+Round of 32            19
+Round of 64            46
+Sweet Sixteen           6
+Name: win, dtype: int64"
+12,-4.461538461538462,0.5234375,"round
+Elite Eight       0
+Round of 32      20
+Round of 64      46
+Sweet Sixteen     1
+Name: win, dtype: int64"
+13,-9.04375,0.25,"round
+Round of 32       6
+Round of 64      26
+Sweet Sixteen     0
+Name: win, dtype: int64"
+14,-10.688741721854305,0.1796875,"round
+Round of 32       2
+Round of 64      21
+Sweet Sixteen     0
+Name: win, dtype: int64"
+15,-16.065693430656935,0.0703125,"round
+Round of 32      1
+Round of 64      8
+Sweet Sixteen    0
+Name: win, dtype: int64"
+16,-24.71875,0.0,"round
+Round of 64    0
+Name: win, dtype: int64"
