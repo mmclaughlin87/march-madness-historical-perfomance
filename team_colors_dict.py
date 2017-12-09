@@ -23,5 +23,5 @@ team_colors = {
     "Purdue":"#C28E0E",
     "Pittsburgh":"#1C2957",
     "Missouri":"#F1B82D",
-    "Norfolk State University":"#007A53"
+    "Norfolk State":"#007A53"
 }
