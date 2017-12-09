@@ -342,7 +342,7 @@ The plot below shows the percentage of each seed that advances to each round of 
 
 ## Statistical Comparison of Seeds
 
-Below are the results of a statistical comparison of each seeds average point margin. The average point margin for every team of each seed was collected and a paired t-test was performed on each set of seeds to determine if they were significantly different from one another. As expected, seeds far from each other are very different, but neighboring seeds often did not meet the 0.05 threshold to be considered significantly different from one another. This allowed us to group seeds' performance into the following statistically similar and unique sets:
+Below are the results of a statistical comparison of each seed's average point margin. The average point margin for every team of each seed was collected and a paired t-test was performed on each set of seeds to determine if they were significantly different from one another. As expected, seeds far from each other are very different, but neighboring seeds often did not meet the 0.05 threshold to be considered significantly different from one another. This allowed us to group seeds' performance into the following statistically similar and unique sets:
 [1, 2, (3, 4), (5, 6, 7), (8, 9, 10, 11, 12), (13, 14), 15, 16]
 
 
@@ -475,9 +475,9 @@ Key Takeaways:
 
 The purpose of this section is to determine which matchups are most likely to produce upsets relative to the absolute seed difference of the teams. Matchups of evenly seeded teams were not considered.
 
-Two dataframes were created to analyze and plot the data.  The first dataframe has one record for each game from the perspective of the underdogs.  This dataframe was used to create a line of best fit to generate the expected upset percentage by absolute seed difference. The second dataframe has one record for each game from the perspective of the winners.  It was used to compare each matchups historical upset percentage to expected upset percentage and plot the data.
+Two dataframes were created to analyze and plot the data.  The first dataframe has one record for each game from the perspective of the underdogs.  This dataframe was used to create a line of best fit to generate the expected upset percentage by absolute seed difference. The second dataframe has one record for each game from the perspective of the winners.  It was used to compare each matchup's historical upset percentage to expected upset percentage and plot the data.
 
-The analysis below highlights two subsets of matchups, but the underlying code contains functions that can be used to look at any subset of your choosing.
+The analysis below highlights two subsets of matchups, but the underlying code contains functions that can be used to look at any subset.
 
 
 
@@ -490,7 +490,7 @@ The analysis below highlights two subsets of matchups, but the underlying code c
 ![png](output_22_0.png)
 
 
-This subset was defined as matchups that occur less than every four years on average. To eliminate outliers, the matchups also must have occurred at least three times since 1985.  From this subset, the four matchups with the most drastic deviation from expected upset percentage are:
+This subset was defined as matchups that occur less than every four years on average. To eliminate extreme outliers, the matchups also must have occurred at least three times since 1985.  From this subset, the four matchups with the most drastic deviation from expected upset percentage are:
 
 ### 2 seed vs 5 seed
 - 4 total games
@@ -657,7 +657,7 @@ First, we grouped the results of each game by the teams playing to find the foll
 
 ## Finding the "Top Teams"
 
-We then sorted by the number of tournament appearances to find the schools that had been in the most tournaments since the format was changed to include 64 teams. The results were similar to what we originally expceted them to be and consisted of schools that have a reputation for being good at men's basketball.
+We then sorted by the number of tournament appearances to find the schools that had been in the most tournaments since the format was changed to include 64 teams. The results were similar to what we originally expected them to be and consisted of schools that have a reputation for being good at men's basketball.
 
 
 
@@ -666,7 +666,7 @@ We then sorted by the number of tournament appearances to find the schools that 
 ![png](output_34_0.png)
 
 
-Next we sorted by the number of games won by schools in the NCAA tournament. This consisted of many of the same teams that were in the top ten for most tournament appearances. It was interesting to see what a large spread there was between the number of wins for Duke which was first in this category and UCLA which was tenth. It also showed that some schools like Conneticut get a lot of wins each time they are in the tournament but don't necessarily make it into as many tournaments as some of the other schools included.
+Next we sorted by the number of games won by schools in the NCAA tournament. This consisted of many of the same teams that were in the top ten for most tournament appearances. It was interesting to see what a large spread there was between the number of wins for Duke which was first in this category and UCLA which was tenth. It also showed that some schools like Connecticut get a lot of wins each time they are in the tournament but don't necessarily make it into as many tournaments as some of the other schools included.
 
 
 
@@ -684,7 +684,7 @@ Finally, we sorted the teams by the net average point spread. Again this mostly 
 ![png](output_38_0.png)
 
 
-## Finding Over and Underperfoming Teams
+## Finding Over and Underperforming Teams
 
 We plotted the average deviation from the expected number of wins per tournament versus the average  number of wins per tournament to showcase the teams that had overperformed their seeding and had consistently went far in the tournament. The size of the points were based on the number of total games a team has played in the tournament. The large red points on the very right side of the graph represented schools that consistently win a lot of games in the tournament and outperform their seeds. The smaller points in red didn't make as far into the tournament on average, but still overperformed their expected results.
 
@@ -694,7 +694,7 @@ We plotted the average deviation from the expected number of wins per tournament
 ![png](output_41_0.png)
 
 
-This table shows the average number of wins, average deviation from expected wins, games played, and tournament appearances for the teams highlighted in the previous graph. The fact that Duke, North Carolina, Kentucky, and Conneticut had such a high number of wins and often overperformed their seeds was not surprising consider their position on the total number of wins bar graph shown earlier. It was also expected that they wouldn't overperform their seed as often since they are often seeded very high.
+This table shows the average number of wins, average deviation from expected wins, games played, and tournament appearances for the teams highlighted in the previous graph. The fact that Duke, North Carolina, Kentucky, and Connecticut had such a high number of wins and often overperformed their seeds was not surprising consider their position on the total number of wins bar graph shown earlier. It was also expected that they wouldn't overperform their seed as often since they are often seeded very high.
 
 It was interesting that there was a team like Butler that almost wins an extra game more than expected every tournament and had a large number of appearances and games played. Their run to the final four a few years ago probably skews this slightly though.
 
